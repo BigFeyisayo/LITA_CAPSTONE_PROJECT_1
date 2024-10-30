@@ -24,6 +24,18 @@ INCUBATOR HUB: This repository contains a comprehensive sales data analysis proj
   2. For data modeling and transformation.
   3. To create interactive dashboards.
 
+### Data Cleaning & Preparation
+
+Data Cleaning Steps
+
+1. Duplicate Record Removal:
+    - Identified and removed duplicate records using [the 'remove duplicate tool' from the data tab]
+2. Data Normalization:
+    - Standardized date formats to [format, e.g., YYYY-MM-DD]
+    - Column data type conversion
+3. Outlier Detection and Removal:
+    - Identified outliers using [method, e.g., Z-score, IQR]
+    - Removed outliers ([number] records removed)
 
 
 
