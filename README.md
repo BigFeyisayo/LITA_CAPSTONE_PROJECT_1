@@ -1,14 +1,30 @@
 ## LITA_CAPSTONE_PROJECT_1
 
-INCUBATOR HUB: This repository contains a comprehensive sales data analysis project. Using Excel, SQL, &amp; PowerBI for my analysis &amp; report & visualization.
+INCUBATOR HUB: This repository contains a comprehensive sales data analysis project. Using Excel, SQL, &amp; PowerBI for analysis, report & visualization.
 
 #### Project Title: Sales Data Analysis Project
 
 #### Project Overview
-This project aims to analyze sales data to identify trends, patterns, and insights that can inform business decisions and drive growth. The goal is to provide actionable recommendations to improve sales performance, optimize marketing strategies, and enhance customer engagement. It focuses on analyzing specific sales data that includes 
-- Sales transactions  - Customer demographics  - Product categories  - Regional sales performance  - Time-based sales trends
+This project aims to analyze sales data to identify trends, patterns, and insights that can inform business decisions and drive growth.  It focuses on analyzing specific sales data that includes such as sales transactions, customer demographics, product categories, regional sales performance, time-based sales trends. The goal is to provide actionable recommendations to improve sales performance, optimize marketing strategies, and enhance customer engagement.
 
 #### Data Sources
+#### Expected Outcomes:
+#### Repository Structure
+
+EO
+1. Comprehensive sales data analysis report
+2. Interactive dashboards for sales performance monitoring
+3. Actionable recommendations for sales growth and improvement
+4. Data-driven insights for marketing strategy optimization
+   
+RS
+This repository contains:
+
+- Data: Sales data files
+- Notebooks: Jupyter notebooks for data analysis and visualization
+- Reports: Sales data analysis report and presentation
+- Visualizations: Interactive dashboards and charts
+- Code: Python scripts for data cleaning, analysis, and modeling
 
 #### Tools & Technologies
 
