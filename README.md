@@ -26,16 +26,22 @@ INCUBATOR HUB: This repository contains a comprehensive sales data analysis proj
 
 ### Data Cleaning & Preparation
 
-Data Cleaning Steps
+Since it is crucial to clean and prepare our data for analysis, I performed the following:
 
-1. Duplicate Record Removal:
-    - Identified and removed duplicate records using [the 'remove duplicate tool' from the data tab]
-2. Data Normalization:
-    - Standardized date formats to [format, e.g., YYYY-MM-DD]
-    - Column data type conversion
-3. Outlier Detection and Removal:
-    - Identified outliers using [method, e.g., Z-score, IQR]
-    - Removed outliers ([number] records removed)
+- Identified & removed duplicate records using [the 'remove duplicate tool' from the data tab]
+- Normalized the dataset by;
+    - Standardizing the date formats to [format, e.g., YYYY-MM-DD]
+    - Converting each columns' data type 
+    - Filtering the columns
+ 
+### Exploratory Data Analysis
+
+This involved the exploration of data to answer the following questions:
+
+- What is the total sales for each product?
+- What is the umber of sales transaction in each region?
+- What is the monthly Sales for each product based on their region?
+
 
 
 
