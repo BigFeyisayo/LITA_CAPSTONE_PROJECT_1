@@ -30,9 +30,9 @@ Since it is crucial to clean and prepare our data for analysis, I performed the 
 
 - Identified & removed duplicate records using [the 'remove duplicate tool' from the data tab]
 - Normalized the dataset by;
-    - Standardizing the date formats to [format, e.g., YYYY-MM-DD]
-    - Converting each columns' data type 
-    - Filtering the columns
+  1. Standardizing the date formats to [format, e.g., YYYY-MM-DD]
+  2. Converting each columns' data type
+  3. Filtering the columns
  
 ### Exploratory Data Analysis
 
