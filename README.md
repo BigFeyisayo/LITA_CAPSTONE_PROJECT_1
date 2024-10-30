@@ -1,13 +1,20 @@
-# LITA_CAPSTONE_PROJECT_1
+## LITA_CAPSTONE_PROJECT_1
 
-INCUBATOR HUB: This repository contains a comprehensive sales data analysis project. Using Excel, SQL, &amp; PowerBI for my analysis &amp; report.
-### Project Title: Sales Analysis
+INCUBATOR HUB: This repository contains a comprehensive sales data analysis project. Using Excel, SQL, &amp; PowerBI for my analysis &amp; report & visualization.
 
-### Project Overview
+#### Project Title: Sales Data Analysis Project
 
-### Data Sources
+#### Project Overview
+This project aims to analyze sales data to identify trends, patterns, and insights that can inform business decisions and drive growth. The goal is to provide actionable recommendations to improve sales performance, optimize marketing strategies, and enhance customer engagement. It focuses on analyzing specific sales data that includes 
+- Sales transactions
+- Customer demographics
+- Product categories
+- Regional sales performance
+- Time-based sales trends
 
-### Tools Used
+#### Data Sources
+
+#### Tools & Technologies
 
 - Microsoft Excel: 
   1. For data analysis and visualization.
@@ -24,9 +31,9 @@ INCUBATOR HUB: This repository contains a comprehensive sales data analysis proj
   2. For data modeling and transformation.
   3. To create interactive dashboards.
 
-### Data Cleaning & Preparation
+#### Data Cleaning & Preparation
 
-Since it is crucial to clean and prepare our data for analysis, I performed the following:
+It is crucial to clean and prepare our data for analysis. I, therefore, performed the following:
 
 - Identified & removed duplicate records using [the 'remove duplicate tool' from the data tab]
 - Normalized the dataset by;
@@ -34,14 +41,15 @@ Since it is crucial to clean and prepare our data for analysis, I performed the 
     - Converting each columns' data type
     - Filtering the columns
  
-### Exploratory Data Analysis
+#### Exploratory Data Analysis
 
-This involved the exploration of data to answer the following questions:
+This involves the exploration of data to answer the following questions:
 
 - What is the total sales for each product?
-- What is the umber of sales transaction in each region?
+- What is the number of sales transaction in each region?
 - What is the monthly Sales for each product based on their region?
 
+#### Data Analysis
 
 
 
