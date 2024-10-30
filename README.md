@@ -9,20 +9,20 @@ INCUBATOR HUB: This repository contains a comprehensive sales data analysis proj
 
 ### Tools Used
 
-Microsoft Excel: 
-- For data analysis and visualization.
-- For data summarization and pivot tables.
-- To create charts and reports.
+- Microsoft Excel: 
+  1. For data analysis and visualization.
+  2. For data summarization and pivot tables.
+  3. To create charts and reports.
 
-Structured Query Language - SQL:
-- To retrieve and analyze data.
-- To manage and manipulate the data
-- To create, query, and modify the data.
+- Structured Query Language - SQL: 
+  1. To retrieve and analyze data.
+  2. To manage and manipulate the data
+  3. To create, query, and modify the data.
 
-PowerBI:
-- For data visualization and reporting.
-- For data modeling and transformation.
-- To create interactive dashboards.
+- PowerBI:
+  1. For data visualization and reporting.
+  2. For data modeling and transformation.
+  3. To create interactive dashboards.
 
 
 
