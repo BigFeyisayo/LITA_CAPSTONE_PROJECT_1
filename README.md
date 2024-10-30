@@ -6,11 +6,7 @@ INCUBATOR HUB: This repository contains a comprehensive sales data analysis proj
 
 #### Project Overview
 This project aims to analyze sales data to identify trends, patterns, and insights that can inform business decisions and drive growth. The goal is to provide actionable recommendations to improve sales performance, optimize marketing strategies, and enhance customer engagement. It focuses on analyzing specific sales data that includes 
-- Sales transactions
-- Customer demographics
-- Product categories
-- Regional sales performance
-- Time-based sales trends
+- Sales transactions  - Customer demographics  - Product categories  - Regional sales performance  - Time-based sales trends
 
 #### Data Sources
 
