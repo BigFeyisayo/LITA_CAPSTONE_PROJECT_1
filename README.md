@@ -2,20 +2,17 @@
 
 INCUBATOR HUB: This repository contains a comprehensive sales data analysis project. Using Excel, SQL, &amp; PowerBI for analysis, report & visualization.
 
-#### Project Title: Sales Data Analysis Project
+### Project Title: Sales Data Analysis Project
 ---
-#### Project Overview
+### Project Overview
 ---
 This project aims to analyze sales data to identify trends, patterns, and insights that can inform business decisions and drive growth.  It focuses on analyzing specific sales data that includes such as sales transactions, customer demographics, product categories, regional sales performance, time-based sales trends. The goal is to provide actionable recommendations to improve sales performance, optimize marketing strategies, and enhance customer engagement.
 
-#### Data Sources
+### Data Sources
 ---
 The primary source of data used here is LITA Capstone Dataset.xlsx.
 
-#### Expected Outcomes:
-#### Repository Structure
-
-#### Tools & Technologies
+### Tools & Technologies
 ---
 - Microsoft Excel: 
   1. For data analysis and visualization.
@@ -32,7 +29,7 @@ The primary source of data used here is LITA Capstone Dataset.xlsx.
   2. For data modeling and transformation.
   3. To create interactive dashboards.
 
-#### Data Cleaning & Preparation
+### Data Cleaning & Preparation
 ---
 It is crucial to clean and prepare our data for analysis. I, therefore, performed the following:
 
@@ -42,7 +39,7 @@ It is crucial to clean and prepare our data for analysis. I, therefore, performe
     - Converting each columns' data type
     - Filtering the columns
  
-#### Exploratory Data Analysis
+### Exploratory Data Analysis
 ---
 This involves the exploration of data to answer the following questions:
 
@@ -50,7 +47,7 @@ This involves the exploration of data to answer the following questions:
 - What is the number of sales transaction in each region?
 - What is the monthly Sales for each product based on their region?
 
-#### Data Analysis
+### Data Analysis
 ---
 Line of queries/codes used during analysis.
 
@@ -64,6 +61,7 @@ GROUP BY
 	Product
 ORDER BY 
 	TotalSales Desc
+```
 
 ```SQL
 SELECT 
@@ -79,6 +77,6 @@ ORDER BY
 	SalesMonth
 ```
 
-#### Data Visualization
+### Data Visualization
 
 ![SalesData Dashboard](https://github.com/user-attachments/assets/a914b248-371d-453a-892b-2d83973f5a11)
