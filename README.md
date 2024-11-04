@@ -64,6 +64,21 @@ GROUP BY
 	Product
 ORDER BY 
 	TotalSales Desc
+
+```SQL
+SELECT 
+	MONTH(OrderDate) AS SalesMonth,
+	SUM(Revenue) AS MonthlySalesTotal
+FROM 
+	SalesData
+WHERE 
+	YEAR(OrderDate) = YEAR(GETDATE())
+GROUP BY 
+	MONTH(OrderDate)
+ORDER BY 
+	SalesMonth
 ```
 
+#### Data Visualization
 
+![SalesData Dashboard](https://github.com/user-attachments/assets/a914b248-371d-453a-892b-2d83973f5a11)
