@@ -1,6 +1,6 @@
 ## LITA_CAPSTONE_PROJECT_1
 
-INCUBATOR HUB: This repository contains a comprehensive sales data analysis project. Using Excel, SQL, &amp; PowerBI for analysis, report & visualization.
+INCUBATOR HUB: This repository contains a comprehensive sales data as well as customer segmentation analysis. Using Excel, SQL, &amp; PowerBI for analysis, report & visualization.
 
 ### Project Title: Sales Data Analysis Project
 ---
