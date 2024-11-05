@@ -183,4 +183,5 @@ WHERE
 
 ### Data Visualization
 
-![SalesData Dashboard](https://github.com/user-attachments/assets/ff552317-d222-4dc1-995c-95fbbc27aecd)
+![SalesReport Dashboard](https://github.com/user-attachments/assets/300492d6-94ff-42ac-a5f3-5eb8e98a2bd7)
+
