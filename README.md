@@ -41,10 +41,10 @@ For both projects, I cleaned and prepared my dataset alike; in a ready-for-explo
     - Filtering the columns.
     - Adding columns I deemed fit.
 
-#### For Sales Data, I added a revenue column in order to run my exploratory data.
+- For Sales Data, I added a revenue column in order to run my exploratory data.
 ![Cleaned SalesData](https://github.com/user-attachments/assets/48b9284a-a3aa-4a58-87a1-181fa2e5ff36)
 
-#### For Customer Data, I added the subscription duration column in order to run my exploratory data.
+- For Customer Data, I added the subscription duration column in order to run my exploratory data.
 ![Cleaned CustData](https://github.com/user-attachments/assets/770c6f00-2565-44ef-84a0-d8f0003da2b8)
 
 ### Exploratory Data Analysis
@@ -63,6 +63,7 @@ This involves the exploration of data to answer the following questions:
 
 - What is the monthly Sales for each product based on their region?
 
+![EDA_Monthly_Sales](https://github.com/user-attachments/assets/d33ee3c8-3cba-43e8-974b-43a60af12a5c)
 
 #### For Customer Data
 - What is the average subscription duration?
