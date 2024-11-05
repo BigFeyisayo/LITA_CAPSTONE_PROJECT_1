@@ -1,6 +1,6 @@
 ## LITA_CAPSTONE_PROJECT_1
 
-INCUBATOR HUB: This repository contains two comprehensive analysis of the Sales Data of a retail store and Customer Segmentation for a subscription service. Using Excel, SQL, &amp; PowerBI for analysis, report & visualization.
+INCUBATOR HUB: This repository contains a comprehensive analysis of the Sales Data of a retail store. Using Excel, SQL, &amp; PowerBI for analysis, report & visualization.
 
 ### Project Title: Sales Data Analysis
 ---
@@ -55,12 +55,21 @@ This involves the exploration of data to answer the following questions:
 
 - What is the monthly Sales for each product based on their region?
 
-![EDA_Monthly_Sales](https://github.com/user-attachments/assets/d33ee3c8-3cba-43e8-974b-43a60af12a5c)
+![EDA-RegionalSales_By_Prod](https://github.com/user-attachments/assets/e649397e-d05c-448e-8d8d-95e4e627b479)
+
+- Average sales per product
+
+![EDA-Avr_Sales_Per_Prod](https://github.com/user-attachments/assets/5f47da9e-9d5e-4b27-85a9-bf27bfa1c58f)
+
+- Total revenue by region
+
+![EDA-Total_Rev_By_Region](https://github.com/user-attachments/assets/a3d57d9f-882c-4da6-be02-482aad3f3507)
 
 ### Data Analysis
 ---
 Line of queries/codes used during analysis.
 
+- Retrieve the total sales for each product category.
 ```SQL
 Select 
 	Product,
@@ -73,6 +82,46 @@ ORDER BY
 	TotalSales Desc
 ```
 
+- Find the number of sales transactions in each region.
+```SQL
+SELECT
+	Region,
+	COUNT(*) AS NoOfSalesTransactions
+FROM
+	[dbo].[SalesData]
+GROUP BY 
+	Region
+ORDER BY 
+	NoOfSalesTransactions Desc
+```
+
+- Find the highest-selling product by total sales value.
+```SQL
+SELECT Top 1
+	Product,
+	SUM(Revenue) AS TotalSalesValue
+FROM 
+	SalesData
+GROUP BY 
+	Product
+ORDER BY 
+	TotalSalesValue Desc
+```
+
+- Calculate total revenue per product.
+```SQL
+SELECT 
+	Product, 
+	SUM(Revenue) AS TotalRevenuePerProduct
+FROM 
+	SalesData
+GROUP BY 
+	Product
+ORDER BY 
+	TotalRevenuePerProduct DESC
+```
+
+- Calculate monthly sales totals for the current year.
 ```SQL
 SELECT 
 	MONTH(OrderDate) AS SalesMonth,
@@ -85,6 +134,51 @@ GROUP BY
 	MONTH(OrderDate)
 ORDER BY 
 	SalesMonth
+```
+
+- Find the top 5 customers by total purchase amount.
+```SQL
+SELECT TOP 5 
+	Customer_Id, 
+	SUM(Revenue) AS TotalPurchaseAmount
+FROM 
+	SalesData
+GROUP BY 
+	Customer_Id
+ORDER BY 
+	TotalPurchaseAmount DESC
+```
+
+- Calculate the percentage of total sales contributed by each region.
+```SQL
+SELECT 
+	Region,
+	SUM(Revenue) AS RegionalSales,
+	CONCAT(ROUND(SUM(Revenue) / (Select SUM(Revenue) FROM SalesData) * 100, 2), '%') AS SalesPercentage
+FROM
+	SalesData 
+GROUP BY
+	Region
+ORDER BY
+	RegionalSales Desc
+```
+- Identify products with no sales in the last quarter.
+```SQL
+SELECT 
+	Product,
+	SUM(Quantity) AS ProdWtNoSale
+FROM 
+	SalesData
+WHERE 
+	Product NOT IN (
+					SELECT 
+					Product
+					FROM 
+					SalesData
+					WHERE 
+					OrderDate >= DATEADD(quarter, -1, GETDATE())
+					)
+	GROUP BY Product
 ```
 
 ### Data Visualization
