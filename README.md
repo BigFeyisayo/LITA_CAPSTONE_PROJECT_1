@@ -4,6 +4,20 @@ INCUBATOR HUB: This repository contains a comprehensive analysis of the Sales Pe
 
 ### Project Title: Sales Performance Analysis
 
+[Project Overview](#project-overview)
+
+[Data Sources](#data-sources)
+
+[Tools And Technologies](#tools-and-technologies)
+
+[Data Cleaning And Preparation](#data-cleaning-and-preparation)
+
+[Exploratory Data Analysis](#exploratory-data-analysis)
+
+[Data Analysis](#data-analysis)
+
+[Data Visualization](#data-visualization)
+
 ### Project Overview
 ---
 This project aims to analyze sales data to identify trends, patterns, and insights that can inform business decisions and drive growth.  It focuses on analyzing specific sales data that includes such as sales transactions, customer demographics, product categories, regional sales performance, time-based sales trends. The goal is to provide actionable recommendations to improve sales performance, optimize marketing strategies, and enhance customer engagement.
@@ -12,7 +26,7 @@ This project aims to analyze sales data to identify trends, patterns, and insigh
 ---
 The primary source of data used here is LITA Capstone Dataset.xlsx. 
 
-### Tools & Technologies
+### Tools And Technologies
 ---
 - Microsoft Excel: 
   1. For data analysis and visualization.
@@ -29,7 +43,7 @@ The primary source of data used here is LITA Capstone Dataset.xlsx.
   2. For data modeling and transformation.
   3. To create interactive dashboards.
 
-### Data Cleaning & Preparation
+### Data Cleaning And Preparation
 ---
 - Identified & removed duplicate records using [the 'remove duplicate tool' from the data tab]
 - Normalized the dataset by;
