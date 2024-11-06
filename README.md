@@ -196,6 +196,7 @@ WHERE
 ```
 
 ### Data Visualization
+---
 
 ![SalesReport Dashboard](https://github.com/user-attachments/assets/300492d6-94ff-42ac-a5f3-5eb8e98a2bd7)
 
